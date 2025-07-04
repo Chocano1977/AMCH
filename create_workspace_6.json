@@ -1,0 +1,483 @@
+{
+    "name": "Plantilla workspace",
+    "location": "north Europe",
+    "capacity": {
+        "name": "Trial Capacity",
+        "sku": "F2",
+        "type": "Fabric",
+        "details": {
+            "tier": "Trial",
+            "computeUnits": 2,
+            "autoScale": {
+                "enabled": false
+            },
+            "restrictions": {
+                "maxStorageSize": "100GB",
+                "maxComputeHours": "24",
+                "validityPeriod": "30 days"
+            }
+        }
+    },
+    "tags": {
+        "environment": "development",
+        "project": "demo"
+    },
+    "folderStructure": {
+        "root": "/",
+        "folders": [
+            {
+                "name": "Raw",
+                "subFolders": [
+                    {
+                        "name": "sistema Origen 1",
+                        "description": "datos del sistema de origen 1",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sistema Origen 2",
+                        "description": "datos del sistema de origen 2",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Std",
+                "subFolders": [
+                    {
+                        "name": "sistema Origen 1",
+                        "description": "datos del sistema de origen 1",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sistema Origen 2",
+                        "description": "datos del sistema de origen 2",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rch",
+                "subFolders": [
+                    {
+                        "name": "sistema Origen 1",
+                        "description": "datos del sistema de origen 1",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sistema Origen 2",
+                        "description": "datos del sistema de origen 2",
+                        "subFolders": [
+                            {
+                                "name": "Data",
+                                "description": "datos del proyecto"
+                            },
+                            {
+                                "name": "Data processing",
+                                "description": "procesamiento de datos",
+                                "subFolders": [
+                                    {
+                                        "name": "environment configuration",
+                                        "description": "Configuración del entorno"
+                                    },
+                                    {
+                                        "name": "orchestration",
+                                        "description": "Orquestación de procesos"
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_1",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_2",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "raw_pl_xxxx_xxxxxxxx_3",
+                                        "description": "Pipeline de xxxxxxxxxx",
+                                        "subFolders": [
+                                            {
+                                                "name": "configuration pipeline",
+                                                "description": "Configuración del pipeline"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "gitConfiguration": {
+        "provider": "GitHub",
+        "repository": "your-org/your-repo",
+        "branch": "main",
+        "rootFolder": "/fabric"
+    },
+    "administrators": [
+        {
+            "objectId": "12345678-1234-5678-abcd-1234567890ab",
+            "principalType": "User",
+            "displayName": "Admin User"
+        }
+    ],
+    "accessGroups": {
+        "contributors": [
+            {
+                "objectId": "98765432-9876-5432-dcba-0987654321cd",
+                "principalType": "Group",
+                "displayName": "Data Engineers"
+            },
+            {
+                "objectId": "abcdef12-3456-7890-abcd-ef1234567890",
+                "principalType": "Group",
+                "displayName": "Data Scientists"
+            }
+        ],
+        "readers": [
+            {
+                "objectId": "11111111-2222-3333-4444-555555555555",
+                "principalType": "Group",
+                "displayName": "Business Analysts"
+            },
+            {
+                "objectId": "66666666-7777-8888-9999-000000000000",
+                "principalType": "Group",
+                "displayName": "Data Viewers"
+            }
+        ]
+    },
+    "accessRoles": {
+        "workspaceAdmin": {
+            "name": "Workspace Administrator",
+            "description": "Full control of workspace resources",
+            "permissions": [
+                "read",
+                "write",
+                "delete",
+                "manage_access",
+                "manage_security"
+            ]
+        },
+        "dataEngineer": {
+            "name": "Data Engineer",
+            "description": "Pipeline and data development",
+            "permissions": [
+                "read",
+                "write",
+                "execute_pipeline"
+            ]
+        },
+        "dataScientist": {
+            "name": "Data Scientist",
+            "description": "Analysis and model development",
+            "permissions": [
+                "read",
+                "write",
+                "execute_notebook"
+            ]
+        },
+        "dataAnalyst": {
+            "name": "Data Analyst",
+            "description": "Read-only access to data",
+            "permissions": [
+                "read",
+                "execute_queries"
+            ]
+        }
+    },
+    "security": {
+        "encryption": {
+            "enabled": true,
+            "keyVaultReference": "your-key-vault-url"
+        },
+        "networkIsolation": {
+            "enabled": true,
+            "allowedIpRanges": []
+        }
+    },
+    "roleAssignments": {
+        "groups": {
+            "Data Engineers": {
+                "roles": ["dataEngineer"],
+                "scope": "workspace"
+            },
+            "Data Scientists": {
+                "roles": ["dataScientist"],
+                "scope": "workspace"
+            },
+            "Business Analysts": {
+                "roles": ["dataAnalyst"],
+                "scope": "workspace"
+            },
+            "Data Viewers": {
+                "roles": ["dataAnalyst"],
+                "scope": "workspace"
+            }
+        },
+        "users": {
+            "Admin User": {
+                "roles": ["workspaceAdmin"],
+                "scope": "workspace"
+            }
+        }
+    }
+}
